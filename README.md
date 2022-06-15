@@ -10,6 +10,10 @@ ITと繋がりを組み合わせて、
 ## topページ
 ###
 起動時にテキストアニメーション付きのロゴを表示させる機能を実装．
+
+###
+![lirem_main](https://user-images.githubusercontent.com/104476684/173825215-8821807a-edbd-41a2-b1ce-05c2ce5bca2b.gif)
+
 画面全体に背景とロゴを数秒表示させる．
 ###
     $(function() {
