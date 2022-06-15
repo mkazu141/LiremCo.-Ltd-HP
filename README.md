@@ -13,4 +13,8 @@
 ## 事業内容
 ## <img width="652" alt="lirem_n" src="https://user-images.githubusercontent.com/104476684/173808116-09112bd4-cc59-40b7-9f7f-f34a733c45a7.png">
 
+## 事業内容2
+## <img width="829" alt="lirem_n2" src="https://user-images.githubusercontent.com/104476684/173808364-9a640317-b8e0-46cc-937b-f04bcb403edd.png">
+
+
 
