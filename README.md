@@ -10,4 +10,7 @@
 ## 会社情報
 ## <img width="720" alt="lirem_info" src="https://user-images.githubusercontent.com/104476684/173807657-af582f28-bd17-45ac-95e2-c7f8b0f0d36b.png">
 
+## 事業内容
+## <img width="652" alt="lirem_n" src="https://user-images.githubusercontent.com/104476684/173808116-09112bd4-cc59-40b7-9f7f-f34a733c45a7.png">
+
 
