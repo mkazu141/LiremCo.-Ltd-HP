@@ -38,6 +38,14 @@ ITと繋がりを組み合わせて、
         }
     },120);
 ###
+指定したテキストの点滅．
+###
+	@keyframes fadeIn { /*animation-nameで設定した値を書く*/
+   		 0% {color: transparent} /*アニメーション開始時は不透明度0%*/
+    		100% {color: #fff;} /*アニメーション終了時は不透明度100%*/
+	}
+
+###
 
 
 ## <img width="702" alt="lirem_top" src="https://user-images.githubusercontent.com/104476684/173806464-8adc21dc-c6b5-4e30-ac19-7f4f8d90866b.png">
