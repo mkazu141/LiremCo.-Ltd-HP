@@ -1,0 +1,520 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Noto+Sans+JP:wght@300,@500,@700&display=swap');
+html{
+    font-size: 100%;
+}
+body{
+    font-family: 'Alata', 'Midashi Go MB31' ,'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    line-height: 3.5vw;
+}
+p{
+    font-size: 1.5vw;
+    color: #5a5a5a;
+}
+
+/*header--------*/
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    padding-left: 4.9vw;
+    padding-right: 11vw;
+    padding-top: 4vw;
+}
+header p{
+    color: #fff;
+}
+.header_flex{
+    display: flex;
+    justify-content: space-between;
+}
+.header_flex2{
+    display: flex;
+}
+
+.text_size18,.text_size18 a{
+    font-size: 1vw;
+    color: #fff;
+    margin-left: 1vw;
+}
+
+
+/*body----------*/
+.top1{
+    position: absolute;
+    width: 100vw;
+    height: 50vw;
+}
+.top_flex1{
+    display: flex;
+    justify-content: space-between;
+}
+.top2{
+    position: relative;
+    width: 10vw;
+}
+.top3{
+    position: relative;
+    width: 10vw;
+}
+.top_main{
+    position: relative;
+    width: 100vw;
+}
+.top_title{
+    position: relative;
+    width: 38vw;
+    margin-left: 10vw;
+    margin-top: -1.5vw;
+}
+.top_title2{
+    font-size: 6vw;
+    font-weight: 500;
+    color: transparent ;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+.top_text{
+    color: #fff;
+    margin-top: 3vw;
+    font-size: 2.5vw;
+}
+.text1{
+    font-size: 3vw;
+    color:#000000;
+}
+.text1_1{
+    font-size: 3vw;
+    color:#717171;
+    margin-bottom: -2.5vw;
+    margin-top: 3vw;
+    margin-left: 2vw;
+}
+.text2{
+    font-size: 1.3vw;
+}
+
+/*flame1--------*/
+#flame1{
+    margin: 10vw 15vw 10vw 15vw
+}
+.flex1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+.flex1 img{
+    width: 7vw;
+}
+.flex_img1{
+    margin-bottom: auto;
+}
+.flex_img2{
+    margin-top: auto;
+}
+.flex3{
+    display: flex;
+    margin-top: 1vw;
+    width: 69vw;
+    height: 8vw;
+    align-items: center;
+    padding-left: 3vw;
+    box-shadow: 1px 1px rgba(90, 90, 90,0.4);
+
+}
+.thin{
+    font-weight: 500;
+    margin-left: 1vw;
+}
+
+.R_justified{
+    width: 15vw;
+    margin-left: auto;
+    margin-top: 5vw;
+}
+.R_justified_flex a{
+    margin-left: 1vw;
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+.R_justified img{
+    width: 15vw;
+    margin-top: -4vw;
+}
+.R_justified_flex{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -2vw;
+}
+.R_justified_flex img{
+    width: 1vw;
+    height: 1vh;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+
+
+/*flame2----*/
+.flex2{
+    display: flex;
+    justify-content: space-around;
+    width: 76vw;
+    margin: 5vw auto 2vw;
+
+}
+.flex2 div{
+    width: 22vw;
+    height: 30vw;
+    background-image: url(images/support/item4.png);
+    background-size: 22vw;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+.flex2 img{
+    width: 20vw;
+}
+
+
+
+/*footer--------*/
+footer{
+    margin-bottom: 5vw;
+    margin-top: -40vw;
+    background-image: url(images/content/footer_img1.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+footer img{
+    position: absolute;
+    width: 100vw;
+}
+.flex4_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20vw;
+}
+#text1,#text2{
+    position: relative;
+    text-align: center;
+}
+#text1{
+    font-size: 5vw;
+    padding-top: 75vw;
+    color: #fff;
+}
+#text2{
+    margin-top: 13vw;
+    font-size: 2vw;
+    position:relative;
+    color: #5F8AE0;
+    font-weight: 500;
+}
+.flex4_2{
+    display: flex;
+    justify-content: center;
+}
+.hr1{
+    transform: rotate(90deg);
+    width: 20vw;
+    margin-top: 13vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+.hr2{
+    position: absolute;
+    color: #5F8AE0;
+    width: 30vw;
+    margin-top: 105vw;
+    margin-left: 60vw;
+}
+#copyright{
+    position: relative;
+    text-align: center;
+    font-size: 1vw;
+    color: #000000;
+    padding-bottom: 22vw;
+}
+.flex5{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 8vw;
+}
+.flex5 p{
+    font-size: 7vw;
+    color: #fff;
+}
+.flex5 .text_contour{
+    font-size: 7vw;
+    font-weight: 500;
+    color: transparent ;
+    -webkit-text-stroke: 1px #FFF;
+}
+.flex6{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+    margin-left: 35vw;
+    margin-top: 40vw;
+}
+.flex6 a{
+    color: #5a5a5a;
+}
+.i_class{
+    text-align: center; 
+    font-weight: bold; 
+    line-height: 4vw;
+}
+.hamburger-menu{
+    display: none;
+}
+.p_none{
+    display: none;
+}
+
+
+@media screen and (max-width: 680px) {
+
+
+.i_none{
+    display: none;
+}
+.p_none{
+    display: block;
+}
+.hamburger-menu{
+    display: block;
+}
+body{
+    line-height: 1.7;
+}
+
+p{
+    font-size: 4vw;
+}
+.text1{
+    font-size: 5vw;
+}
+
+/*header*/
+.menu-btn {
+    position: fixed;
+    top: 0vw;
+    left: 0vw;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    padding-left: 5vw;
+    padding-top: 8vw;
+    z-index: 90;
+    background: linear-gradient(to left top, transparent 50%, #29a4bf 1vw, #2ba4c0 50%, #5f8ae0 70%, #936ffe 96%);
+}
+#menu-btn-check:checked ~.menu-btn{
+    background: rgba(0, 0, 0, 0);
+}
+
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #fff;
+    position: absolute;
+}
+.menu-btn span:before {
+    bottom: 8px;
+}
+.menu-btn span:after {
+    display: none;
+}
+#menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+}
+#menu-btn-check:checked ~ .menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+#menu-btn-check:checked ~ .menu-btn span::after {
+    display: block;
+    top: 0;
+    transform: rotate(-45deg);
+}
+#menu-btn-check {
+    display: none;
+}
+
+.menu-content ul {
+    padding: 70px 10px 0;
+}
+.menu-content ul li {
+    border-bottom: solid 1px #ffffff;
+    list-style: none;
+}
+.menu-content ul li a {
+    display: block;
+    width: 800%;
+    font-size: 5vw;
+    box-sizing: border-box;
+    color:#ffffff;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+    position: relative;
+}
+.menu-content ul li a::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 11px;
+    top: 16px;
+}
+
+.menu-content {
+    width: 0%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 120%;/*leftの値を変更してメニューを画面外へ*/
+    z-index: 80;
+    background: linear-gradient(to bottom,#936ffe, #07baa9);
+    transition: all 0.6s;/*アニメーション設定*/
+}
+#menu-btn-check:checked ~ .menu-content {
+    width: 100%;
+    right: 0;/*メニューを画面内へ*/
+}
+
+
+
+/*top*/
+.top1{
+    height: 47vw;
+}
+.top_main{
+    margin-top: -11vw;
+}
+.top_title{
+    width: 40vw;
+    margin-left: 55vw;
+}
+.top_title2{
+    font-size: 9vw;
+    margin-top: -1vw;
+}
+.top_text{
+    font-size: 3vw;
+    margin-top: -3vw;
+    font-weight: 500;
+    margin-left: 20vw;
+}
+/*flame1*/
+#flame1{
+    margin: 10vw 5vw 10vw 5vw;
+}
+.flex2{
+    width: 90vw;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    justify-content: space-between;
+}
+
+.flex2::-webkit-scrollbar {
+    display:none;
+}
+.flex2 div{
+    width: 52vw;
+    height: 60vw;
+    margin-right: 5vw;
+    background-size: 52vw;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+.flex2 img{
+    width: 50vw;
+}
+
+
+.flex3{
+    width: auto;
+    height: auto;
+    margin-top: 5vw;
+}
+.flex3 p{
+    margin-bottom: auto;
+}
+
+.flex3 .thin{
+    margin-top: auto;
+    margin-left: 2vw;
+}
+
+
+.flex6{
+    width: 50vw;
+    margin-left: 25vw;
+    margin-top: 55vw;
+    margin-bottom: 1vw;
+}
+
+footer .flex6 a{
+    font-size: 1vw;
+}
+
+.R_justified_flex a{
+    font-size: 3vw;
+}
+.R_justified_flex img{
+    width: 1.5vw;
+    height: 1.5vh;
+    margin-left: 1.5vw;
+    margin-top: 1.5vw;
+}
+
+
+/*flame2*/
+.i_class{
+    line-height: 1.7;
+    margin-bottom: 20vw;
+    margin-top: 15vw;
+}
+
+
+/*footer*/
+#text1{
+    text-align: center;
+    padding-top: 65vw;
+}
+#text2{
+    display: none;
+}
+footer .text1{
+    color: #FFF;
+    text-align: center;
+}
+.footer_mobile{
+    margin-top: 8vw;
+    margin-left: 13vw;
+    text-align: center;
+    color: #4F92D7;
+}
+.hr2{
+    display: none;
+}
+.flex4_1{
+    margin-bottom: 10vw;
+}
+.flex5{
+    margin-top: 0vw;
+}
+
+}
