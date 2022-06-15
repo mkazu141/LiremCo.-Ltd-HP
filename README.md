@@ -118,7 +118,7 @@ count==8とcount==16でクラスの入れ替えを行う．
 				$('#start_text').addClass('change_vertical_2');
     		}
     		else if(count == 1001){
-				$('.keyword').removeClass('change_vertical_2');
+				$('.keyword').removeClass('change_vertical change_vertical_2');
 				$('#start_text').addClass('p_none');
 				clearInterval(timerId2);
     		}
