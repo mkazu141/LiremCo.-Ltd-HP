@@ -8,6 +8,34 @@ ITと繋がりを組み合わせて、
 ###
 一部ピックアップして紹介します
 ## topページ
+###
+起動時にテキストアニメーション付きのロゴを表示させる機能を実装．
+画面全体に背景とロゴを数秒表示させる．
+###
+    $(function() {
+	    setTimeout(function(){
+		    $('.start p').fadeIn(1600);
+	    },100); //0.5秒後にロゴをフェードイン!
+        setTimeout(function(){
+		    $('.start').fadeOut(1600);
+        },3200)
+    });
+###
+テキストアニメーション開始のためのクラスの取得．
+###
+    let cnt = 0
+    let timerId = setInterval(function(){
+        $('#start_flex').fadeOut(60,function(){$(this).fadeIn(60)});
+        cnt++
+        if(cnt==9){   
+            $('.start_f1').addClass('change')
+            $('.start_f4').addClass('change')
+            clearInterval(timerId);   
+        }
+    },120);
+###
+
+
 ## <img width="702" alt="lirem_top" src="https://user-images.githubusercontent.com/104476684/173806464-8adc21dc-c6b5-4e30-ac19-7f4f8d90866b.png">
 
 ## 会社情報ページ
