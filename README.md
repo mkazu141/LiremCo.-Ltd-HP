@@ -1,5 +1,11 @@
 # LiremCo.-Ltd-HP
 株式会社Liremのホームページ制作をしました．
+###
+株式会社Liremは令和3年10月15日に学生企業で創業した会社です.
+Liremは人の繋がりが強い東三河を拠点として、
+ITと繋がりを組み合わせて、
+”オモシロイ”を想像し続けます。
+###
 一部ピックアップして紹介します
 ## topページ
 ## <img width="702" alt="lirem_top" src="https://user-images.githubusercontent.com/104476684/173806464-8adc21dc-c6b5-4e30-ac19-7f4f8d90866b.png">
