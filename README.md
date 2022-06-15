@@ -45,7 +45,7 @@ ITと繋がりを組み合わせて、
 ###
 	@keyframes fadeIn { /*animation-nameで設定した値を書く*/
    		 0% {color: transparent} /*アニメーション開始時は不透明度0%*/
-    		100% {color: #fff;} /*アニメーション終了時は不透明度100%*/
+    	100% {color: #fff;} /*アニメーション終了時は不透明度100%*/
 	}
 #
 
