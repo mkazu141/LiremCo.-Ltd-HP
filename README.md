@@ -7,4 +7,7 @@
 ## 会社情報ページ
 ## <img width="851" alt="lirem_com" src="https://user-images.githubusercontent.com/104476684/173807427-df82e95c-19c7-4cb2-b099-40e94735f1c5.png">
 
+## 会社情報
+## <img width="720" alt="lirem_info" src="https://user-images.githubusercontent.com/104476684/173807657-af582f28-bd17-45ac-95e2-c7f8b0f0d36b.png">
+
 
